@@ -109,8 +109,6 @@ public class CameraSourcePreview extends ViewGroup {
 
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
-        //un comentariu pentru git
-        int a = 12;
         int width = 320;
         int height = 240;
         if (mCameraSource != null) {
